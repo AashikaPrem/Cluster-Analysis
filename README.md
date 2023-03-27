@@ -66,7 +66,7 @@ g1
 ```
 
 ## Output
-![image](https://user-images.githubusercontent.com/85166438/227846490-21c13ff3-a653-4088-8aba-3a97283351c6.png)
+![image](https://user-images.githubusercontent.com/85166438/227846768-2ecf9596-9b3a-4890-9629-c72d342366cd.png)
 ![image](https://user-images.githubusercontent.com/85166438/227846546-645ffcc5-a517-4ec0-8bc2-06fa69788f60.png)
 
 ## Insights
