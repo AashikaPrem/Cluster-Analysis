@@ -66,8 +66,8 @@ g1
 ```
 
 ## Output
-![image](https://user-images.githubusercontent.com/85166438/227846768-2ecf9596-9b3a-4890-9629-c72d342366cd.png)
-![image](https://user-images.githubusercontent.com/85166438/227846546-645ffcc5-a517-4ec0-8bc2-06fa69788f60.png)
+![image](https://user-images.githubusercontent.com/85166438/227846490-21c13ff3-a653-4088-8aba-3a97283351c6.png)
+![image](https://user-images.githubusercontent.com/85166438/227846860-dd27eee9-7d2f-4d1f-acef-cf6de8878ac5.png)
 
 ## Insights
 Through the analysis of video game sales data, groups of customers who exhibit similar purchasing behavior or who prefer certain types of video games can be identified in various regions including North America, Europe, Japan, and other countries. This information can then be utilized to develop targeted marketing campaigns and customer retention strategies tailored to the preferences and behaviors of each customer group.
