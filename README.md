@@ -1,2 +1,2 @@
 # Cluster-Analysis
-Customer Segmentation using K-means Clustering
+Cluster analysis is a useful technique in sales for grouping customers or products based on shared characteristics or behaviors. By identifying these groups, sales teams can develop targeted marketing campaigns and personalized sales approaches that are tailored to the needs and preferences of each customer group. In addition, cluster analysis can help sales teams to identify underperforming product categories and adjust pricing, features, or marketing strategies accordingly to improve sales performance and profitability.
