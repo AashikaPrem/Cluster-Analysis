@@ -65,6 +65,17 @@ g1 <- ggplot(data = plotdata, aes(x = na_sales, y = jp_sales, color = cluster)) 
 g1
 ```
 
+## Output
+![image](https://user-images.githubusercontent.com/85166438/227846490-21c13ff3-a653-4088-8aba-3a97283351c6.png)
+![image](https://user-images.githubusercontent.com/85166438/227846546-645ffcc5-a517-4ec0-8bc2-06fa69788f60.png)
+
+## Insights
+Through the analysis of video game sales data, groups of customers who exhibit similar purchasing behavior or who prefer certain types of video games can be identified in various regions including North America, Europe, Japan, and other countries. This information can then be utilized to develop targeted marketing campaigns and customer retention strategies tailored to the preferences and behaviors of each customer group.
+
+## Recommendations
+K-means cluster analysis has been performed on video game sales data and has resulted in the identification of three clusters based on sales performance: Cluster 1.0 represents video games with low sales, Cluster 2.0 represents video games with medium sales, and Cluster 3.0 represents video games with high sales. This information could be used to inform marketing and sales strategies, such as increasing advertising efforts for games in Cluster 1.0, optimizing pricing strategies for games in Cluster 2.0, and focusing on maintaining customer loyalty for games in Cluster 3.0.
+
+
 
 
 
