@@ -18,6 +18,8 @@ sales_data <- read.csv("Grocerysales.csv")
 ```rscript
 install.packages("janitor")
 library(janitor)
+library(dplyr)
+library(xlsx)
 sales_data <- clean_names(sales_data)
 ```
 
@@ -27,17 +29,12 @@ sales_data$category[sales_data$category == "beverage"] <- "Beverages"
 sales_data$category[sales_data$category == "bakery"] <- "Bakery"
 sales_data$category[sales_data$category == "Eggs, Meat, Fish"] <- "Eggs, Meat & Fish"
 sales_data[is.na(sales_data)] <- 0
-```
-
-**Replacing 0s as Offline and 1s as Online**
-```rscript
-sales_data$online_purchase[sales_data$online_purchase == 1] <- "Online"
-sales_data$instore_purchase[sales_data$instore_purchase == 1] <- "Instore"
 sales_data <- sales_data %>%
-  mutate(Channel = ifelse(online_purchase == "Online","Online","Instore"))
+  mutate(Channel = ifelse(online_purchase == 1,"Online","Instore"))
 sales_data <- sales_data[,c(-4,-5)]
 sales_data <- sales_data[,c(1,2,3,10,4,5,6,7,8,9)]
-sales_data
+sales_data <- sales_data %>%
+  mutate(across(c('central','east','north','south','west','total_sales'),round,0))
 ```
 
 **Check for NAs in the cleaned dataset**
