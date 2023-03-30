@@ -94,7 +94,7 @@ write.csv(sales_data, file = "data.csv")
 ## Output
 ![image](https://user-images.githubusercontent.com/85166438/228749714-1fdd0243-4b36-4f07-a92c-6f0eb69ae194.png)
 
-![image](https://user-images.githubusercontent.com/85166438/228749684-125d991c-bd5a-4e0c-86dc-52b62ccb7b17.png)
+![image](https://user-images.githubusercontent.com/85166438/228760225-ec552426-a1f9-487c-986e-f5a794f1b861.png)
 
 ## Insights
 Through the analysis of grocery sales data, groups of customers who exhibit similar purchasing behavior or who prefer certain types of products can be identified in various regions including Central, East, North, South and West . This information can then be utilized to develop targeted marketing campaigns and customer retention strategies tailored to the preferences and behaviors of each customer group.
